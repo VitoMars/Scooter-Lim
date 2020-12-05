@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background{
+  background-image:url(img/background.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.base_opaca{
+  position: absolute;
+  background-position: center;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  height: 90vh;
+  width: 130vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+}
+
+.logo{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.logo img{
+  height: 110px;
+}
+
+.scritta{
+  position: absolute;
+  font-size: 25px;
+  color: #00dd00;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.prenotazione{
+  position: relative;
+  background-color: #00dd00;
+  height: 5vh;
+  width: 100vh;
+  top: 260px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.buttons{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.Monopattini{
+  position: relative;
+  width: 100vh;
+  top: 280px;
+  left: 50%;
+  transform: translate(-50%);
+  color: white;
+}
+
+.nome_monopattino, .distanza, .stato_carica{
+  font-size: 15px;
+  padding: 2px;
+}
+
+.nome_monopattino{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quadratino{
+  position: relative;
+  background-color: white;
+  height: 12px;
+  width: 12px;
+  border-radius: 15%;
+  display: inline-block;
+}
+
+.livello_carica1, .livello_carica2, .livello_carica3{
+  position: relative;
+  height: 3vh;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.livello_carica1{
+  width: 35vh;
+  background-color: #f5b453;
+}
+
+.livello_carica2{
+  width: 60vh;
+  background-color: #1ec31e;
+}
+
+.livello_carica3{
+  width: 15vh;
+  background-color: #be4141;
+}
